@@ -1,0 +1,26 @@
+{
+    "name": "gralhao/gralhao-egg",
+    "description": "Gralhao EGG",
+    "autoload": {
+        "psr-4": {
+            "Ping\\": "./modules/Ping/src"
+        }
+    },
+    "require": {
+        "gralhao/gralhao": "dev-master"
+    },
+    "require-dev": {
+        "phalcon/devtools": "dev-master",
+        "phalcon/ide-stubs": "dev-master",
+        "squizlabs/php_codesniffer": "^3.0@dev"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gralhao/gralhao.git"
+        }
+    ],
+    "scripts": {
+        "serve": "php -S 0.0.0.0:8080 -t public public/index.php"
+    }
+}
