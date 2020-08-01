@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:gralhao/gralhao.git",
-                "reference": "ecbe1417da77ba42ff31e97bd939fba77c55efb4"
+                "reference": "899514b6f2eb9e59022a45be6459a5efdb7edfa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gralhao/gralhao/zipball/ecbe1417da77ba42ff31e97bd939fba77c55efb4",
-                "reference": "ecbe1417da77ba42ff31e97bd939fba77c55efb4",
+                "url": "https://api.github.com/repos/gralhao/gralhao/zipball/899514b6f2eb9e59022a45be6459a5efdb7edfa5",
+                "reference": "899514b6f2eb9e59022a45be6459a5efdb7edfa5",
                 "shasum": ""
             },
             "require-dev": {
@@ -53,7 +53,7 @@
                 "source": "https://github.com/gralhao/gralhao/tree/master",
                 "issues": "https://github.com/gralhao/gralhao/issues"
             },
-            "time": "2020-07-31T04:10:37+00:00"
+            "time": "2020-08-01T03:11:40+00:00"
         }
     ],
     "packages-dev": [
