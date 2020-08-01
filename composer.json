@@ -1,6 +1,6 @@
 {
     "name": "gralhao/gralhao-egg",
-    "description": "Gralhao EGG",
+    "description": "A Gralhao kickstart application",
     "autoload": {
         "psr-4": {
             "Ping\\": "./modules/Ping/src"
