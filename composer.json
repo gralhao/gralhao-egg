@@ -1,6 +1,16 @@
 {
     "name": "gralhao/gralhao-egg",
     "description": "A Gralhao kickstart application",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "homepage": "https://github.com/gralhao/gralhao-egg",
+    "keywords": [
+        "phalcon",
+        "gralhao",
+        "skeleton",
+        "api"
+    ],
     "autoload": {
         "psr-4": {
             "Ping\\": "./modules/Ping/src"
