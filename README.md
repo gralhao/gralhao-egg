@@ -44,6 +44,7 @@ Gralhao is built with Phalcon MVC Micro. It means that all Phalcon features stil
 PHP ^7.4, Phalcon ^4.x, Gralhao ^1.x
 
 ### Usage <a name="usage"></a>
+To learn how to create a module, please check the [sample module repository](https://github.com/gralhao/status-module).
 ##### Create the project using composer
 ```bash
 composer create-project gralhao/gralhao-egg project/path
@@ -52,11 +53,13 @@ composer create-project gralhao/gralhao-egg project/path
 ```bash
 composer serve
 ```
+Go to: http://localhost:8080/ping
+
 ##### Running with docker (Phalcon extension is available in container)
 ```bash
 docker-compose build && docker-compose up
 ```
-To learn how to create a module, please check the [sample module repository](https://github.com/gralhao/status-module).
+Go to: http://localhost:8080/ping
 
 ### QA Tools
 ##### PHP Unit
