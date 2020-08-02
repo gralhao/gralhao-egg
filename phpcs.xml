@@ -19,8 +19,5 @@
             <property name="ignoreBlankLines" value="false"/>
         </properties>
     </rule>
-    <rule ref="PSR1.Files.SideEffects">
-        <exclude-pattern>test/Config.php</exclude-pattern>
-    </rule>
     <file>modules</file>
 </ruleset>

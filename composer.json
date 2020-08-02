@@ -6,21 +6,24 @@
             "Ping\\": "./modules/Ping/src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "PingTest\\": "./modules/Ping/test"
+        }
+    },
     "require": {
-        "gralhao/gralhao": "dev-master"
+        "gralhao/gralhao": "^1.0.0"
     },
     "require-dev": {
         "phalcon/devtools": "dev-master",
         "phalcon/ide-stubs": "dev-master",
-        "squizlabs/php_codesniffer": "^3.0@dev"
+        "squizlabs/php_codesniffer": "^3.0@dev",
+        "gralhao/gralhao-test": "^1.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/gralhao/gralhao.git"
-        }
-    ],
     "scripts": {
-        "serve": "php -S 0.0.0.0:8080 -t public"
+        "serve": "php -S 0.0.0.0:8080 -t public",
+        "cs-check": "./vendor/bin/phpcs",
+        "cs-fix": "./vendor/bin/phpcbf",
+        "test": "./vendor/bin/phpunit --testdox --coverage-text --coverage-html coverage/html"
     }
 }

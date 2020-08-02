@@ -8,10 +8,10 @@
 
 <div align="center">
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/gralhao/gralhao-egg.svg?style=flat-square)](https://packagist.org/packages/gralhao/gralhao-egg)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.4-8892BF.svg)](https://php.net/)
 [![Build Status](https://travis-ci.com/gralhao/gralhao-egg.svg?branch=master)](https://travis-ci.com/gralhao/gralhao-egg)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/gralhao/gralhao-egg.svg)](https://github.com/gralhao/gralhao-egg/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/gralhao/gralhao-egg.svg)](https://github.com/gralhao/gralhao-egg/pulls)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](/LICENSE)
 
 </div>
@@ -41,12 +41,12 @@ Gralhao is built with Phalcon MVC Micro. It means that all Phalcon features stil
 ## Getting Started <a name = "getting_started"></a>
 
 ### Prerequisites
-PHP ^7.4, Phalcon ^4.x
+PHP ^7.4, Phalcon ^4.x, Gralhao ^1.x
 
 ### Usage <a name="usage"></a>
 Create the project using composer.
 ```bash
-composer create-project -sdev gralhao/gralhao-egg project/path
+composer create-project gralhao/gralhao-egg project/path
 ```
 Running with php server:
 ```bash
@@ -60,7 +60,7 @@ To learn how to create a module, please check the [sample module repository](htt
 
 ## Built Using <a name = "built_using"></a>
 - [Gralhao](https://github.com/gralhao/gralhao)
-- [Phalcon](https://phalcon.io/) - Framework
+- [Phalcon](https://phalcon.io/)
 
 ## Authors <a name = "authors"></a>
 - [@mocallu](https://github.com/mocallu) - Idea & Initial work
